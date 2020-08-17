@@ -4,20 +4,13 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: Menu
-  create: all
-  match: "**/*"
-  templates:
-  - try1
 - type: document
   path: ''
   label: demo1
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: public
