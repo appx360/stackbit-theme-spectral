@@ -13,6 +13,8 @@ front_matter_path: ''
 use_front_matter_path: true
 file_template: ":filename:"
 build:
+  preview_env:
+  - 91:0e:39:0b:79:eb:46:e4:37:ca:a4:fe:5b:da:b8:9c=gh
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: forestryio/ruby:2.6
